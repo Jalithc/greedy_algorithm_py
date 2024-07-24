@@ -22,13 +22,15 @@ def main():
 
     print(coins)
 
-
+# Function for calculate quaters
 def calc_quaters(cents):
     return cents / 25
 
+# Function for calculate dimentions
 def calc_dimensions(cents):
     return cents / 10
 
+# Function for calculate nickles
 def calc_nickles(cents):
     return cents / 5
 
